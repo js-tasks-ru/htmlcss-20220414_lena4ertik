@@ -6,29 +6,39 @@
         <link rel="stylesheet" href="./accordion.css">
     </head>
     <body>
-        <details>
-            <summary>
-                Accordion item
-            </summary>
-            <p>
-                Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
-            </p>
-        </details>
-        <details>
-            <summary>
-                Accordion item 2
-            </summary>
-            <p>
-                Hidden content
-            </p>
-        </details>
-        <details>
-            <summary>
-                Accordion item 3
-            </summary>
-            <p>
-                Hidden content
-            </p>
-        </details>
+        <div class="accordion">
+            <div class="accordion-open">
+                <div class="accordion__item" >
+                    <details open>
+                        <summary>
+                        Accordion item
+                        </summary>
+                        <p class="accordion__text">
+                            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+                        </p>
+                </details>
+                </div>
+            </div>
+            <div class="accordion__item">
+                <details>
+                    <summary>
+                        Accordion item 2
+                    </summary>
+                    <p class="accordion__text">
+                        Hidden content
+                    </p>
+                </details>
+            </div>
+            <div class="accordion__item">
+                <details>
+                    <summary>
+                        Accordion item 3
+                    </summary>
+                    <p class="accordion__text">
+                        Hidden content
+                    </p>
+                </details>
+            </div>
+        </div>
     </body>
 </html>

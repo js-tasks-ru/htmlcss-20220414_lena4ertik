@@ -6,10 +6,6 @@
     font-size: 16px;
     line-height: 24px;
 }
-.accordion:first-child {
-    margin-top: 75px;
-    
-}
 .accordion__item {
     max-width: 730px;
     min-height: 72px;
@@ -17,12 +13,14 @@
     border: 1px solid #ACB5BD;
     box-sizing: border-box;
     border-radius: 8px;
+    padding: 24px 48.69px 32px 32px;
+}
+.accordion__item:not(:first-child) { 
     margin-top: 8px;
-    padding-left: 32px;
-    padding-top: 24px;
+}
+.accordion__title {
+    /*padding: 24px 536.62px 24px 32px;*/
 }
 .accordion__text {
-    width: 649.31px;
-    height: 48px;
     color: #495057;
 }

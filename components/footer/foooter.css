@@ -1,8 +1,9 @@
 .footer {
-    height: 200px;
+    height: 100px;
     background-color: #fff;
     text-align: center;
-
+    display: flex;
+    flex-direction: column;
 }
 .footer__title {
     font-family: 'Inter';

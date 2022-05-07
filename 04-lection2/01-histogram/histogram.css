@@ -21,7 +21,7 @@
     margin-bottom: 0;
 }
 .histogram__link {
-    display: block;
+    display: inline-block;
     color: #4263EB;
     text-decoration: none;
 }
@@ -35,10 +35,11 @@
 }
 .histogram__bars {
     display: flex;
-    justify-content: stretch;
     flex-wrap: nowrap;
     width: 100%;
     height: 50px;
+    
+
 }
 .histogram__bar {
     flex: 1 0 auto;

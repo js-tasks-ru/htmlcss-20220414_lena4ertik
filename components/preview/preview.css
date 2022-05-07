@@ -4,5 +4,6 @@
 }
 .preview__inner {
     display: flex;
-    justify-content: space-between;
+    justify-content: stretch;
     /*flex-wrap: wrap;*/
+}

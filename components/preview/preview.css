@@ -1,4 +1,8 @@
 .preview {
-    background-color: #F9FAFC;
-    height: 400px;
+    /*background-color: #F9FAFC;*/
+    background-color: darkgoldenrod;
 }
+.preview__inner {
+    display: flex;
+    justify-items:auto;
+} 

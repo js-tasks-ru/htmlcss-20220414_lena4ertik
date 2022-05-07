@@ -4,6 +4,9 @@
 }
 .preview__inner {
     display: flex;
-    justify-content: stretch;
-    /*flex-wrap: wrap;*/
+    gap: 30px;
+    align-items: center;
+}
+.preview__inner-card {
+  
 }

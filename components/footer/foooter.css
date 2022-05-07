@@ -1,8 +1,10 @@
 .footer {
+    display: flex;
     height: 200px;
-    background-color:aqua;
+    background-color: white;
     text-align: center;
     align-content: center;
+    padding-top: 72px;
 }
 .footer__title {
     font-family: 'Inter';
@@ -20,5 +22,5 @@
     line-height: 24px;
     color: #212429;
     max-width: 640px;
-    margin: 0 auto;
+    
 }

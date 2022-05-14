@@ -1,20 +1,26 @@
 .footer {
-    height: 100px;
-    background-color: palegreen;
+    display: flex;
+    height: 200px;
+    background-color: white;
     font-family: 'Inter';
     font-style: normal;
     color: #212429;
+    text-align: center;
+    align-content: center;
+    padding-top: 72px;
+    padding-bottom: 136px;
 
 }
 .footer__title {
     font-weight: 500;
     font-size: 38px;
     line-height: 48px;
+
 }
 .footer__text {
+    max-width: 640px;
+    height: 96px;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-    max-width: 640px;
-    
 }

@@ -1,8 +1,10 @@
 .preview {
     /*background-color: #F9FAFC;*/
-    background-color: darkgoldenrod;
+    background-color: #F9FAFC;
+    height: 400px;
 }
 .preview__inner {
     display: flex;
-    justify-items:auto;
+    gap: 30px;
+    align-items: center;
 } 
